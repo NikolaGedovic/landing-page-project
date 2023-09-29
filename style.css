@@ -52,7 +52,7 @@ a {
     justify-content: space-between;
     height: 400px;
     background-color: #1f2937;
-    padding: 0 250px;
+    padding: 10px 250px;
 }
 
 /* Left Side Hero */
@@ -113,14 +113,14 @@ h1 {
     justify-content: center;
     align-items: center;
     height: 400px;
-    padding: 0 250px;
+    padding: 20px 250px 70px 250px;
 
 }
 
 h2 {
     color: #1f2937;
-    font-size: 30px;
-    font-weight: 800;
+    font-size: 36px;
+    font-weight: bolder;
     padding: 0 0 30px 0;
 }
 
@@ -146,6 +146,80 @@ h2 {
 
 .card-text {
     color: gray;
+    font-size: 18px;
     margin: 0;
     text-align: center;
+}
+
+/* 2nd Part */
+
+.second-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #e5e7eb;
+    height: 400px;
+    padding: 0 250px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    margin: 36px 0 20px 0;
+}
+
+.author-text {
+    font-size: 30px;
+    color: #1f2937;
+    font-weight: bolder;
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+    margin: 0;
+}
+
+/* 3rd Part */
+
+.third-part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 250px;
+    height: 400px;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882f6;
+    width: 100%;
+    height: 170px;
+    border-radius: 15px;
+    padding: 0 130px 0 125px;
+}
+
+h3 {
+    color: #e5e7eb;
+    font-size: 25px;
+    margin: 0 0 3px 0;
+}
+
+.cta-text {
+    color: #e5e7eb;
+    margin: 3px 0 0 0;
+}
+
+.cta-signup {
+    border: solid 2px #e5e7eb;
+    color: #e5e7eb;
+    font-size: 18px;
+    border-radius: 10px;
+    padding: 7px 35px;
+}
+
+.cta-signup:hover {
+    color: #3882f6;
+    background-color: #e5e7eb;
 }
